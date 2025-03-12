@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ScollingText</string>
+    <string name="article_title">Article Title</string>
+    <string name="article_subtitle">Article Subtitle</string>
+    <string name="article_text">Article text https://github.com/
+        \n\n <b>CLARANS (Clustering Large Applications</b>
+        \n\n based upon Randomized Search) là thuật toán phâncụm dựa trên tìm kiếm ngẫu nhiên,
+        được phát triển để tối ưu hóa k-Medoids nhằm xử lý tốt hơndữ liệu lớn. Thuật toán này thuộc nhóm phân cụm dựa trên đại diện
+        \n\n
+        <b>(representative-based clustering) và được thiết kế để giảm chi phí tính toán của PAM (Partitioning Around Medoids) </b>
+        <i>bằng cách giới hạn không gian tìm kiếm.</i>
+        \n\n <b>CLARANS (Clustering Large Applications</b>
+        \n\n based upon Randomized Search) là thuật toán phâncụm dựa trên tìm kiếm ngẫu nhiên,
+        được phát triển để tối ưu hóa k-Medoids nhằm xử lý tốt hơndữ liệu lớn. Thuật toán này thuộc nhóm phân cụm dựa trên đại diện
+        \n\n
+        <b>(representative-based clustering) và được thiết kế để giảm chi phí tính toán của PAM (Partitioning Around Medoids) </b>
+        <b><i>bằng cách giới hạn không gian tìm kiếm.</i></b>
+        <b>(representative-based clustering) và được thiết kế để giảm chi phí tính toán của PAM (Partitioning Around Medoids) </b>
+        <i>bằng cách giới hạn không gian tìm kiếm.</i>
+        \n\n <b>CLARANS (Clustering Large Applications</b>
+        \n\n based upon Randomized Search) là thuật toán phâncụm dựa trên tìm kiếm ngẫu nhiên,
+        được phát triển để tối ưu hóa k-Medoids nhằm xử lý tốt hơndữ liệu lớn. Thuật toán này thuộc nhóm phân cụm dựa trên đại diện
+        \n\n
+        <b>(representative-based clustering) và được thiết kế để giảm chi phí tính toán của PAM (Partitioning Around Medoids) </b>
+        <b><i>bằng cách giới hạn không gian tìm kiếm.</i></b>
+        <b>(representative-based clustering) và được thiết kế để giảm chi phí tính toán của PAM (Partitioning Around Medoids) </b>
+        <i>bằng cách giới hạn không gian tìm kiếm.</i>
+        \n\n <b>CLARANS (Clustering Large Applications</b>
+        \n\n based upon Randomized Search) là thuật toán phâncụm dựa trên tìm kiếm ngẫu nhiên,
+        được phát triển để tối ưu hóa k-Medoids nhằm xử lý tốt hơndữ liệu lớn. Thuật toán này thuộc nhóm phân cụm dựa trên đại diện
+        \n\n
+        <b>(representative-based clustering) và được thiết kế để giảm chi phí tính toán của PAM (Partitioning Around Medoids) </b>
+        <b><i>bằng cách giới hạn không gian tìm kiếm.</i></b>
+    </string>
+</resources>

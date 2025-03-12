@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E8E8E"
+        android:onClick="showToast"
+        android:text="@string/button_label_toast"
+        android:textColor="@color/white"
+
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,VisualLintButtonSize,TextContrastCheck,DuplicateClickableBoundsCheck,VisualLintOverlap" />
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FBE008"
+        android:gravity="center"
+        android:text="@string/count_initial_value"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="160sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.498"
+        android:layout_weight="1"
+
+        android:layout_below="@+id/button_toast"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+
+        app:layout_constraintVertical_bias="0.111"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+    <!--    app:layout_constraintBottom_toTopOf="@+id/button_count"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/button_toast"-->
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_below="@+id/show_count"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E8E8E"
+        android:onClick="countUp"
+        android:text="@string/button_label_count"
+        android:textColor="@color/white"
+
+        tools:ignore="HardcodedText,VisualLintButtonSize,TextContrastCheck" />
+    <!--    app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+
+</RelativeLayout>

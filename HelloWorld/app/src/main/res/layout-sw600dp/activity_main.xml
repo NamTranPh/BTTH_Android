@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E8E8E"
+        android:onClick="showToast"
+        android:text="@string/button_label_toast"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,VisualLintButtonSize,TextContrastCheck,DuplicateClickableBoundsCheck,VisualLintOverlap"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="#8E8E8E"
+        android:onClick="countUp"
+        android:text="@string/button_label_count"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        app:layout_constraintStart_toEndOf="@+id/button_toast"
+        tools:ignore="HardcodedText,VisualLintButtonSize,TextContrastCheck"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:background="#FBE008"
+        android:gravity="center"
+        android:text="@string/count_initial_value"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="200sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextContrastCheck"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="116dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
