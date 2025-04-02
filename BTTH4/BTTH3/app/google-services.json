@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "863202696915",
+    "project_id": "btth-9025c",
+    "storage_bucket": "btth-9025c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863202696915:android:a6369c880726916b5b7e26",
+        "android_client_info": {
+          "package_name": "com.example.btth3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCigW98ExRbxUFEVCDzpaMUKWsklbhtrpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
